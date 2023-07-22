@@ -1,0 +1,46 @@
+@import url(./style.css);
+
+.nav-top{
+    background-color: var(--secondary);
+    /* height: 60px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-top .nav .nav-item .nav-link{
+    color: var(--light);
+}
+
+.nav-top .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-top .social-media i{
+    margin-inline: 20px;
+}
+
+.fats{
+    margin-bottom: 100px!important;
+}
+
+.facts .container .nav-tabs .facts-start .col-lg-4 .facts-start-item{
+    padding: 20px 40px!important;
+}
+
+.container-fluid.container .info-preinscription{
+    position: relative;
+    background: var(--primary);
+    z-index: 1;
+}
+
+/* .container-fluid .container .row .new{
+    background: var(--secondary)!important;
+    opacity: 0.8;
+} */
+
+.title-2{
+    color: var(--secondary);
+}

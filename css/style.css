@@ -2,7 +2,7 @@
 :root {
     --primary: #846786;
     --secondary: #ff8a00;
-    --light: #F3F6F8;
+    --light: #2b3034;
     --dark: #e80af6;
 }
 
@@ -369,3 +369,4 @@
 .copyright a:hover {
     color: var(--light);
 }
+
