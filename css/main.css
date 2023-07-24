@@ -209,3 +209,17 @@ p, span, blockquote{
     background-color: #000;
     color: var(--secondary);
 }
+
+
+/* TOUS LES BOUTTONS */
+.btn-primary{
+    border: none;
+    outline: none;
+    background-color: var(--primary);
+    color: #000!important;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary);
+    color: #000;
+}
