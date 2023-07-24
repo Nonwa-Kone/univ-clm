@@ -1,5 +1,14 @@
 @import url(./style.css);
 
+h1, h2, h3, h4, h5, h6{
+    color: var(--primary);
+}
+
+p, span, blockquote{
+    color: #000;
+}
+
+
 .nav-top{
     background-color: var(--secondary);
     /* height: 60px; */
@@ -42,5 +51,161 @@
 } */
 
 .title-2{
+    color: var(--secondary);
+}
+
+
+#team-workspace {
+    background:  var(--primary) url(../img/gala-des-elites/arriere-fond.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    height: 75vh;
+    width: 100%;
+}
+
+/* COURSES */
+.courses .container .col-lg-8 p {
+    font-size: 20px;
+    line-height: 50px;
+    color: #000;
+    text-align: justify;
+}
+
+.courses .container .col-lg-8 p i{
+    font-size: 30px;
+}
+
+/* FILIERES UNIVERSITAIRE  */
+.container-fluid .container .row .col-lg-4 div img{
+    width: 200px;
+    margin-bottom: 40px!important;
+}
+
+.container-fluid .container .row .col-lg-6 div img{
+    width: 200px;
+    margin-bottom: 40px!important;
+}
+
+/* TEMOINAGE */
+
+.Temoinages .container .row .col-lg-4 .temoinage-profil{
+    margin-inline: auto;
+    padding: 10px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid var(--secondary);
+    border-radius: 50%;
+}
+
+
+.Temoinages .container .row .col-lg-4 .temoinage-profil img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: fill;
+}
+
+
+/* FOOTER */
+
+.footer{
+    background-color: var(--light);
+}
+
+.footer .container .row .col-lg-3 h4{
+    color: white!important;
+}
+
+
+/*** Testimonial ***/
+.testimonial-item {
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.testimonial-item .testimonial-text {
+    position: relative;
+    text-align: center;
+}
+
+.testimonial-item .testimonial-text .btn-square {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-item .testimonial-text::before {
+    position: absolute;
+    content: "";
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 30px solid;
+    border-color: var(--light) transparent transparent transparent;
+}
+
+.testimonial-item .testimonial-text::after {
+    position: absolute;
+    content: "";
+    bottom: -59px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 30px solid;
+    border-color: #FFFFFF transparent transparent transparent;
+}
+
+.testimonial-carousel .owl-item img {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 25px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--light);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot::after {
+    position: absolute;
+    content: "";
+    width: 16px;
+    height: 16px;
+    top: 6px;
+    left: 6px;
+    border-radius: 16px;
+    background: var(--light);
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    border-color: var(--primary);
+}
+
+.testimonial-carousel .owl-dot.active::after {
+    background: var(--primary);
+}
+
+
+
+.btn-lg-square{
+    background-color: #000;
     color: var(--secondary);
 }
