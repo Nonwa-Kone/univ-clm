@@ -1,11 +1,15 @@
 @import url(./style.css);
 
-h1, h2, h3, h4, h5, h6{
+/* h1, h2, h3, h4, h5, h6{
     color: var(--primary);
-}
+} */
 
 p, span, blockquote{
     color: #000;
+}
+
+.col-lg-4:hover{
+    background-color: var(--primary)!important;
 }
 
 
@@ -31,6 +35,12 @@ p, span, blockquote{
     margin-inline: 20px;
 }
 
+/* MENU DEROULANTE */
+
+.navbar .navbar-collapse .dropdown .dropdown-menu{
+    background-color: var(--secondary)!important;
+}
+
 .fats{
     margin-bottom: 100px!important;
 }
@@ -39,16 +49,35 @@ p, span, blockquote{
     padding: 20px 40px!important;
 }
 
-.container-fluid.container .info-preinscription{
+.facts .container .facts-start .col-lg-4 .col-item #first-statistic {
+    transition: all 0.3s ease-in-out;
+    transition-duration: 0.5s;
+    transition-delay: 0.018s;
+    border-radius: 10px;
+}
+
+.facts .container .facts-start .col-lg-4 .col-item #first-statistic:hover{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--primary)!important;
+    color: #FFFFFF!important;
+}
+
+.facts .container .facts-start .col-lg-3 .col-item:hover{
+    background-color: var(--primary)!important;
+    color: #FFFFFF!important;
+}
+
+
+.facts .container .facts-start .col-lg-4 .col-item .text-item h5:hover{
+    color: #FFFFFF!important;
+}
+
+.container-fluid .container .info-preinscription{
     position: relative;
     background: var(--primary);
     z-index: 1;
 }
-
-/* .container-fluid .container .row .new{
-    background: var(--secondary)!important;
-    opacity: 0.8;
-} */
 
 .title-2{
     color: var(--secondary);
@@ -222,4 +251,10 @@ p, span, blockquote{
 .btn-primary:hover{
     background-color: var(--primary);
     color: #000;
+}
+
+
+/* ======= ANIMATION DES IMAGES ======= */
+.container-fluid #img:hover{
+    transform: scale(0.9);
 }
