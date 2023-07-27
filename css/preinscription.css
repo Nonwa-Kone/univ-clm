@@ -1,0 +1,49 @@
+/* STYLE DU CHOIX D'UN FILIERE */
+#choix-preinscription .container #choix #card-choix button{
+    border: none;
+    color: #fff!important;
+    font-size: 22px;
+    font-weight: 700;
+    outline: none;
+    padding: 10px 20px;
+}
+
+/* STYLE DU FICHIER PREINSCRIPTION UNIVERSITAIRE */
+.container-fluid .container .row .col-lg-8 form p{
+    color: red!important;
+    margin: 20px auto;
+    font-size: 14px!important;
+}
+
+.container-fluid .container .row .col-lg-8 button {
+    border-radius: 20px;
+    color: #fff!important;
+    font-size: 22px;
+    font-weight: bold;
+    outline: none;
+    margin-inline: auto;
+    padding: 10px 30px;
+}
+
+@media (max-width: 680px){
+    .container-fluid .container h1{
+        margin-top: 20px;
+        font-size: medium;
+    }
+
+    .container-fluid .container .row .col-lg-8 form p{
+        color: red!important;
+        margin: 20px auto;
+        font-size: 14px!important;
+    }
+
+    .container-fluid .container .row .col-lg-8 button {
+        border-radius: 20px;
+        color: #fff!important;
+        font-size: 18px;
+        font-weight: bold;
+        outline: none;
+        margin-inline: auto;
+        padding: 10px 30px;
+    }
+}

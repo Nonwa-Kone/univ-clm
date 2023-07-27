@@ -32,7 +32,9 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/preinscription.css">
 </head>
+
 
 <body>
     <!-- Spinner Start -->
@@ -78,7 +80,7 @@
                 <a href="about.html" class="nav-item nav-link">Identite</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Formations</a>
-                    <div class="dropdown-menu bg-light m-0">
+                    <div class="dropdown-menu m-0">
                         <a href="" class="dropdown-item">Filières professionnelles</a>
                         <a href="" class="dropdown-item">Filières universitaires</a>
                     </div>
@@ -92,72 +94,27 @@
     <!-- Navbar End -->
 
 
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">CONTACTEZ NOUS</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">ACCUEIL</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">CONTACTEZ NOUS</li>
-                </ol>
-            </nav>
-        </div>
-    </div>
-    <!-- Page Header End -->
-
-
-    <!-- Contact Start -->
-    <div class="container-xxl py-6">
+    <div class="container-fluid py-lg-5 bg-light" id="choix-preinscription">
         <div class="container">
-            <div class="row g-5">
-                <div class="offset-lg-3 col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <h1 class="display-6 mb-4">CONTACTER UCLM</h1>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="name" placeholder="Your Name">
-                                    <label for="name">Votre nom complet</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="tel" class="form-control border-0 bg-light" id="tel" placeholder="Your Email">
-                                    <label for="tel">Votre numéro de téléphone</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control border-0 bg-light" id="email" placeholder="Your Email">
-                                    <label for="email">Votre email</label>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="subject" placeholder="Subject">
-                                    <label for="subject">Sujet</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control border-0 bg-light" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Envoyer</button>
-                            </div>
-                        </div>
-                    </form>
+            <h1 class="text-center py-3">SE PREINSCRIRE A UNE DE NOS ECOLES</h1>
+            <div class="row d-flex justify-content-center" id="choix">
+                <div class="col-lg-5 col-sm-12 p-lg-5 p-5 bg-white mx-5 shadow my-5" id="card-choix">
+                    <div class="d-flex flex-column justify-content-center align-items-center rounded-5 ps-4">
+                        <h4 class="mb-lg-5 text-center">UNIVERSITE CHARLES LOUIS MONTESQUIEU</h4>
+                        <a href="preinscription-universite.html"><button class="btn btn-primary">Se préinscrire</button></a>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-sm-12 p-lg-5 p-5 bg-white mx-5 shadow my-sm-5" id="choix">
+                    <div class="d-flex flex-column justify-content-center align-items-center rounded-5 ps-4" id="card-choix">
+                        <h4 class="mb-lg-5 text-center">GRANDE ECOLE CHARLES LOUIS MONTESQUIEU</h4>
+                        <a href="preinscription-prive.html"><button class="btn btn-primary">Se préinscrire</button></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
 
-
+  
     <!-- Footer Start -->
     <div class="container-fluid footer my-6 mb-0 py-6 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
@@ -241,6 +198,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="./js/utils/hover.js"></script>
 </body>
 
 </html>
