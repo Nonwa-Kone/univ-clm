@@ -62,7 +62,8 @@
             <i class="fa-brands fa-instagram"></i>
             <i class="fa-brands fa-tiktok"></i>
         </div>
-    </div>
+    </div> 
+
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-3">
@@ -84,7 +85,7 @@
                     </div>
                 </div>
                 <a href="" class="nav-item nav-link">actuailtes & evenements</a>
-                <a href="https://univ-clm.com/" class="nav-item nav-link">portail de l'université</a>
+                <a href="https://univ-clm.com/" class="nav-item nav-link">portail de l'universitaires</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
         </div>
@@ -92,15 +93,14 @@
     <!-- Navbar End -->
 
 
-
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">CONTACTEZ NOUS</h1>
+            <h1 class="display-4 text-white animated slideInDown mb-4">FILIERES PROFESSIONNELLES</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">ACCUEIL</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">CONTACTEZ NOUS</li>
+                    <li class="breadcrumb-item"><a class="text-white" href="index.html">ACCUEIL</a></li>
+                    <li class="breadcrumb-item text-primary active" aria-current="page">FILIERES PROFESSIONNELLES</li>
                 </ol>
             </nav>
         </div>
@@ -108,54 +108,24 @@
     <!-- Page Header End -->
 
 
-    <!-- Contact Start -->
-    <div class="container-xxl py-6">
+    <!-- About Start -->
+    <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="offset-lg-3 col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <h1 class="display-6 mb-4">CONTACTER UCLM</h1>
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="name" placeholder="Your Name">
-                                    <label for="name">Votre nom complet</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="tel" class="form-control border-0 bg-light" id="tel" placeholder="Your Email">
-                                    <label for="tel">Votre numéro de téléphone</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control border-0 bg-light" id="email" placeholder="Your Email">
-                                    <label for="email">Votre email</label>
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control border-0 bg-light" id="subject" placeholder="Subject">
-                                    <label for="subject">Sujet</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control border-0 bg-light" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit">Envoyer</button>
-                            </div>
-                        </div>
-                    </form>
+                <h1 class="text-center text-uppercase mb-5">Filières professionnelles</h1>
+                <div class="row wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100">
+                        <ul class="list-group text-center" id="detail-filiere-grande-ecole">
+                            
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+    <!-- About End -->
+
+
 
 
     <!-- Footer Start -->
@@ -227,7 +197,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
@@ -241,6 +211,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script type="module" src="./js/list-all-filiere-prive.js"></script>
 </body>
 
 </html>
